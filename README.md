@@ -3,7 +3,7 @@ Project 2: Web Crawler
 https://david.choffnes.com/classes/cs4700fa20/project2.php
 Xinyu Ye and Jeff Taylor
 
-This program crawls a "fakebook" site created by the course staff looking for secret flags that are embedded in some pages.  The secret flags appear in the following format in the html: <h2 class='secret_flag' style="color:red">FLAG: 64-characters-of-random-alphanumerics</h2>.  The program ends when all 5 flags are found, or all the pages have been visted, whichever comes first.
+This program crawls a "fakebook" site created by the course staff looking for secret flags that are embedded in some pages.  The secret flags appear in the following format in the html:```html<h2 class='secret_flag' style="color:red"> FLAG: 64-characters-of-random-alphanumerics</h2>.```The program ends when all 5 flags are found, or all the pages have been visted, whichever comes first.
 
 High Level Approach:
 
